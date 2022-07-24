@@ -4,9 +4,9 @@ import time
 from tqdm import tqdm
 import os
 
-target = "zombie"
-# target = "zombie2"
-# target = "creeper"
+# target = "zombie"
+# target = "zombie_villager"
+target = "creeper"
 
 if not os.path.exists("img"):
     os.makedirs("img")
